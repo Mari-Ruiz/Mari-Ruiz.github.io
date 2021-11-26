@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+    background-color: #1E1E7F;
+    color:#31AA9F;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-family:'Noto Serif', serif;
+}
+h1{
+    font-size: 30px;
+    margin-left: 40px;
+    font-family: 'Noto Serif', serif;
+    line-height: 75px;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+	padding-top: 16px;	
+	font-family: 'Merriweather', serif;
+}
+nav {
+    background-color: #FF90DB;
+    color: #192767;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+}
+nav ul li {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    list-style: none;
+	
+	}
+a{
+	text-decoration: none; 
+}
+p{
+    margin-top: 27px;
+    margin-right: 27px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+	font-family: 'Open Sans', sans-serif;
+}
+footer{
+    background-color:#FF90DB;
+    color:#1E1E80;
+	}
+footer ul li {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+	list-style: none;
+}
+
+.box-conteiner-flex-1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+.box-conteiner-flex-2 {
+	color: #23237D;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+	}
+.box-conteiner-flex-3{
+    padding: 20px;
+    margin: 30px;
+    background-color: #FFEB73;
+}
+.box-conteiner-flex-4{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items:stretch;
+	
+}
+.box-conteiner-flex-6{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box-conteiner-flex-6 {
+   margin: 20px;
+}
+.gallery {
+    border: 1px solid;
+    color: #000000;
+    width: 300px;
+	margin: 20px;
+    
+}
+.gallery:hover {
+  border: 15px solid;
+	color:#1E1E7F;
+	
+}
+
+.gallery img,video{
+  width: 100%;
+  height: auto;
+}
+.desc {
+  padding: 25px;
+  text-align: center;
+	background-color: #FFEB73;
+}

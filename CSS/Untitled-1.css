@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+    background-color: #1E1E7F;
+    color:#31AA9F;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-family:'Noto Serif', serif;
+}
+h1{
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Noto Serif', serif;
+    line-height: 35px;
+    padding-top: 20px;
+}
+h2{
+    font-size: 25px;
+   	font-family: 'Merriweather', serif;
+    padding-bottom: 24px;
+    text-align: center;
+	color: #23237D;
+	}
+h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;	
+	font-family: 'Merriweather', serif;
+	color: #23237D;
+}
+nav {
+    background-color: #FF90DB;
+    color:#23237D;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+}
+nav ul li {
+    margin-left: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    font-weight: bolder;
+    list-style: none;
+	}
+a{
+	text-decoration: none; 
+}
+p{
+    margin-top: 27px;
+    margin-right: 27px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+	font-family: 'Open Sans', sans-serif;	
+}
+div ul li{		
+	font-family: 'Open Sans', sans-serif;
+	padding: 2px;
+	color: #23237D;
+}
+footer{
+    background-color:#FF90DB;
+    color:#1E1E80;
+	}
+footer ul li {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.box-conteiner-flex-1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+.box-conteiner-flex-2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+	}
+.box-conteiner-flex-3 {
+    background-color: #FFEB73;
+	color:#23237D;
+    width: 72%;
+}
+.box-conteiner-flex-4{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.box-conteiner-flex-5{
+    background-color: #00F7FF;
+    padding:60px;
+    margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.box-conteiner-flex-5 > div {
+    background-color: #FFFFFF;
+    margin: 10px;
+	padding: 30px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+	text-align: center
+}
+.box-conteiner-flex-6{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.box-conteiner-flex-6 > div {
+   margin: 20px;
+}
